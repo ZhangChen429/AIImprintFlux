@@ -1,0 +1,30 @@
+# Dependencies and local state
+node_modules/
+.npm-cache/
+.pi-agent/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+
+# Model weights and generated training output
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+Ollama/models/
+AIProject/checkpoints/
+AIProject/outputs/
+
+# Local verification files
+.verification/

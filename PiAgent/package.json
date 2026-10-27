@@ -1,0 +1,17 @@
+{
+  "name": "ai-learning-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Pi Agent setup for AI learning",
+  "scripts": {
+    "pi": "node scripts/start-pi.cjs",
+    "setup": "node scripts/manage-pi.cjs setup",
+    "update:pi": "node scripts/manage-pi.cjs update"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.4.0"
+  },
+  "overrides": {
+    "undici": "8.12.2"
+  }
+}

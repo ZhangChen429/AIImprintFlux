@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+.pi-agent/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/

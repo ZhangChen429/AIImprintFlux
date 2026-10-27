@@ -1,0 +1,4 @@
+[submodule "PiAgent/upstream"]
+	path = PiAgent/upstream
+	url = https://github.com/earendil-works/pi.git
+	branch = stable
